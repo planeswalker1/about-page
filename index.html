@@ -3,7 +3,15 @@ layout: default
 title-after: Web Developer
 ---
 
-<header>
+<header id="home" class="header">
+  {% include nav.html %}
+  <div class="header__intro">
+    <h1>Daniel Munoz</h1>
+    <p>Web Developer</p>
+  </div>
+  <p class="header__scroll">Scroll Down</p>
+</header>
+<!-- <header>
   <nav>
     <h1>Daniel Munoz</h1>
     <ul>
@@ -19,9 +27,9 @@ title-after: Web Developer
     <p>some animated text</p>
   </div>
   <p>Scroll Down</p>
-</header>
+</header> -->
 <main>
-  <div>
+  <div id="about">
     <div>
       <!-- background image here -->
     </div>
@@ -48,7 +56,7 @@ title-after: Web Developer
     </div>
   </div>
 
-  <div>
+  <div id="work">
     <h2>Work</h2>
     <div>
       <div>
@@ -71,7 +79,7 @@ title-after: Web Developer
     </div>
   </div>
 
-  <div>
+  <div id="support">
     <h2>Support</h2>
     <div>
       <div>
