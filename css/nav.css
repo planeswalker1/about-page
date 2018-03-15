@@ -1,0 +1,36 @@
+.nav {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.hamburger {
+  margin: 0 15px;
+  /* position: fixed; */
+  /* top: 0
+  right: 0; */
+  z-index: 3;
+}
+
+.hamburger__rect {
+  transition: all 0.5s;
+}
+
+.hamburger__rect--1 {
+  transform: rotate(35deg) translate(3px, -1px);
+}
+
+.hamburger__rect--2 {
+  transform: rotate(-35deg) translate(-7px, 0);
+}
+
+.hamburger__rect--3 {
+  opacity: 0;
+}
