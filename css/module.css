@@ -1,0 +1,7 @@
+.header__intro {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2em;
+  outline: 4px double #FFFFFF;
+  outline-offset: 8px;
+  text-align: center;
+}
