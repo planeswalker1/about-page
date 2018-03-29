@@ -1,12 +1,12 @@
 # _about-page_
 
-#### _A single page website. All rights and lefts reserved., 03.18.2018_
+#### _A single page website about me. All rights and lefts reserved., 03.28.2018_
 
 #### By _**planeswalker1**_
 
 ## Description
 
-_A website about me._
+_A single page website about me._
 
 ## Setup/Installation Requirements
 
